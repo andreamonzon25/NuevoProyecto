@@ -17,7 +17,7 @@ public void sumarT() {
 @Test
 public void sumarMax() {
 	Calculadora calc = new Calculadora();
-	int resultado = calc.Sumar(Integer.MAX_VALUE,1);
+	String resultado = calc.Sumar(Integer.MAX_VALUE,1);
 	assertEquals("overflow",resultado);
 }
 }
