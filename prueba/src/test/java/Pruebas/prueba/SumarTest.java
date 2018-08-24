@@ -1,16 +1,18 @@
 package Pruebas.prueba;
 
+import static org.junit.Assert.assertEquals;
+
 import org.junit.Test;
 
-import junit.framework.TestCase;
 
-public class SumarTest extends TestCase {
+
+public class SumarTest {
 
 @Test
 public void sumarT() {
 	Calculadora calc = new Calculadora();
 	int resultado = calc.Sumar(2,2);
-	assertEquals(resultado,4);
+	assertEquals(4,resultado);
 }
 
 }
